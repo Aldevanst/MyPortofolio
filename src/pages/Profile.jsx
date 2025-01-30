@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { CameraIcon } from 'lucide-react';
 
-const Home = () => {
+const Profile = () => {
   const { user, logout, setUser } = useAuth();
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -171,4 +171,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Profile;
